@@ -1,3 +1,5 @@
+It parse data of both xls and xlsx files.
+
 1. To install required dependencies
 npm install
 
