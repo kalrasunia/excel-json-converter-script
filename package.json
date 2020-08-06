@@ -1,17 +1,24 @@
 {
-  "name": "hello-cli",
+  "name": "excel-json-converter-script",
   "version": "1.0.0",
-  "main": "bin/index.js",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "excel-json-converter-script": "index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalrasunia/excel-json-converter-script.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "xlsx": "^0.16.5"
+  "bugs": {
+    "url": "https://github.com/kalrasunia/excel-json-converter-script/issues"
   },
-  "bin": {
-    "hello-cli": "index.js"
-  },
-  "description": ""
+  "homepage": "https://github.com/kalrasunia/excel-json-converter-script#readme"
 }
