@@ -2,11 +2,10 @@
   "name": "excel-json-converter-script",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "bin": {
-    "excel-json-converter-script": "index.js"
+  "main": "bin/index.js",
+  "dependencies": {
+    "xlsx": "^0.16.5"
   },
-  "dependencies": {},
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,6 +18,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kalrasunia/excel-json-converter-script/issues"
-  },
-  "homepage": "https://github.com/kalrasunia/excel-json-converter-script#readme"
+  }
 }
