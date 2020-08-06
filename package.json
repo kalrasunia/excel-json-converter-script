@@ -1,0 +1,17 @@
+{
+  "name": "hello-cli",
+  "version": "1.0.0",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xlsx": "^0.16.5"
+  },
+  "bin": {
+    "hello-cli": "index.js"
+  },
+  "description": ""
+}
